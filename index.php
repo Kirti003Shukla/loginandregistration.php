@@ -33,11 +33,11 @@
 
                          <div class="form-group">
                          <label>Username</label>
-                         <input type="text" name ="username" class="form-control">
+                         <input type="text" name ="username" class="form-control" required>
                          </div>
                          <div class="form-group">
                          <label>Password</label>
-                         <input type="password" name ="password" class="form-control">
+                         <input type="password" name ="password" class="form-control" required>
                          </div>
                                                    
                         <input type="submit" value="Login" class="btn btn-block btn-primary">
@@ -53,15 +53,15 @@
     
                          <div class="form-group">
                           <label>Username</label>
-                         <input type="text" name ="username" class="form-control">
+                         <input type="text" name ="username" class="form-control" required>
                          </div>
                          <div class="form-group">
                          <label>Password</label>
-                         <input type="password" name ="password" class="form-control">
+                         <input type="password" name ="password" class="form-control" required>
                          </div>
                          <div class="form-group">
                          <label>Retype Password</label>
-                         <input type="password" name ="repassword" class="form-control">
+                         <input type="password" name ="repassword" class="form-control" required>
                          </div>
     
                           <input type="submit" name="register" value="Register" class="btn btn-primary">
